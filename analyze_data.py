@@ -34,8 +34,8 @@ def proscess_data(country):
 					country_data=[]
 					country_data.append(curr_row[0])
 					country_data.append(curr_row[1])
-					country_data.append(curr_row[3])
-					country_data.append(curr_row[4])
+					country_data.append(curr_row[6])
+					country_data.append(curr_row[7])
 					virus_development_data.append(country_data)
 		csvfile.close()
 	return virus_development_data
